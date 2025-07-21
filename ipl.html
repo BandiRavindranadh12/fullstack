@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Details - CricketStats</title>
+    <link rel="stylesheet" href="ipl.css">
+    <script src="ipl.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo" onclick="window.location.href='dashboard.html'">🏏 CricketStats</div>
+        <div class="nav-links">
+            <a href="dashboard.html">Home</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+
+    <header class="ipl-header">
+        <h1>PLayer Details</h1>
+       
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="iplSearch" placeholder="Search team or player..." onkeyup="searchIPL()">
+        <div id="searchResults"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 CricketStats. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
